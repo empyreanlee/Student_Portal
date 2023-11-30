@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_apple">#7FFF00</color> <!-- Green Apple -->
+    <color name="lavender">#E6E6FA</color> <!-- Lavender -->
+    <color name="midnight_dusk">#2C3E50</color> <!-- Midnight Dusk -->
+    <color name="teal">#008080</color> <!-- Teal -->
+    <color name="turquoise">#40E0D0</color>
+    <color name="primary">#6750A4</color>
+    <color name="purple">#8692f7</color>
+    <color name="grey">#444444</color>
+    <color name="mid_grey">#808080</color>
+    <color name="gray">#626262</color>
+    <color name="dark_green">#2ecc71</color>
+</resources>

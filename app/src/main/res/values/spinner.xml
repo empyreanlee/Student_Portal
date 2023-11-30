@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="spinner">
+    <item>Year</item>
+    <item>Semester 1</item>
+    <item>Semester 2</item>
+    <!-- Add more items as needed -->
+</string-array>
+</resources>

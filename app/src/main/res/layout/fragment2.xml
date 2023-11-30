@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginLeft="10dp"    >
+
+    <TextView
+        android:id="@+id/textViewSelectCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegNo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Select Course:"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkboxAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSelectCourse"
+        android:layout_weight="0"
+        android:text="Animation" />
+
+    <CheckBox
+        android:id="@+id/checkboxBlockchain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxAnimation"
+        android:layout_weight="0"
+        android:text="Blockchain" />
+
+    <CheckBox
+        android:id="@+id/checkboxVR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxBlockchain"
+        android:layout_weight="0"
+        android:text="Virtual Reality" />
+
+    <CheckBox
+        android:id="@+id/checkboxCyberSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxVR"
+        android:layout_weight="0"
+        android:text="Cyber Security" />
+
+    <CheckBox
+        android:id="@+id/checkboxMachine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxCyberSecurity"
+        android:layout_weight="0"
+        android:text="Machine Learning" />
+
+    <CheckBox
+        android:id="@+id/checkboxSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxMachine"
+        android:layout_weight="0"
+        android:text="System Programming" />
+
+    <CheckBox
+        android:id="@+id/checkboxCompilerDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxSystem"
+        android:layout_weight="0"
+        android:text="Compiler Design" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkboxCompilerDesign"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/midnight_dusk"
+        android:layout_marginLeft="20dp"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:text="Register"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
